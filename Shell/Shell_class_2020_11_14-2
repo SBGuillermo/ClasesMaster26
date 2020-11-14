@@ -1,0 +1,353 @@
+echo $SHELL
+echo $TERM
+whoami
+echo %HOST
+echo $HOST
+echo $USER
+printenv
+clear
+echo today is `date`
+echo today is $(date)
+echo today is $(echo $(date))
+cat/etc/os-release
+cat /etc/os-release
+cd-it8 clear
+clear
+cd
+cd Data/shell
+ls
+cat Text_example.txt
+cat Text_example.txt Text_example.txt Text_example.txt
+cat -n Text_example.txt
+cd~
+cd ~
+echo $PWD
+cd Date/shell
+cd ~
+cd Data/shell
+cd ..
+cd -
+dc
+cd
+ls
+ls -a
+ls -al
+ls -1
+ls --help
+ls -la
+cd /home
+mkdir first_dir
+cd
+mkdir first_dir
+touch /first_dir/text_file.txt
+touch text_file.txt
+mv text_file.txt /first_dir
+ls
+cd first_dir
+touch text_file.txt
+ls -al
+chmood 777 text_file.txt
+chmod 777 text_file.txt
+mkdir /sub1
+mkdir sub1
+ls
+mkdir sub2
+mkdir text_file
+cp text_file.txt sub1
+mv text_file.txt.2 sub2
+mv text_file.txt text_file.txt2
+mv text_file.txt2 sub2
+cp -r sub1 sub2
+cd sub2
+mv text_file.txt2 text_file.txt.bakup
+mv .text_file.txt.bakup first_dir
+mv text_file.txt.bakup text_file.txt.backup
+mv text_file.txt.backup first_dir
+rm -rf sub2
+cd -
+rm -rf sub2
+ls
+ls sub1
+ls -a
+cd sub1
+ls
+mv text_file.txt ~/first_dir
+cd -
+ls
+mv text_file.txt text_file.txt .backup
+mv text_file.txt text_file.txt.backup
+mv text_file.txt text_file.txt.backup 
+cd
+firefox
+$firefox
+git
+clear
+git config --global user.name "SBGuillermo"
+git config --global user.email "sbguillermo@gmail.com"
+cat /.gitconfig
+cat ~/.gitconfig
+git clone https://github.com/SBGuillermo/kschool-master-26.git
+ls
+cd kschool-master-26
+touch chachi file
+git status
+git commit - m 'aniado un archivo chachi'
+git commint
+git commit
+git commint chachi
+git cimmit chachi
+git commit chachi
+git add chachi
+git commit chachi
+git config --global user.name "SBGuillermo"
+git config --global user.email "sbguillermo@gmail.com"
+cd
+mkdir Repos
+cd Repos
+git clone https://github.com/SBGuillermo/master_clase2.git
+cd
+l
+mv kschool-master-26/ Repos/
+cd
+l
+cd Repos
+l
+clear
+cd master_clase2
+ls -a 
+ll
+gedit README.md
+git status
+git add README.md
+git status
+git commit
+git log
+git add -u
+git status
+gedit README.md
+get status
+git status
+git add -u
+get status
+git status
+git commit - m "added second line"
+git commit -m "added second line"
+git push
+history -30
+git log
+git push
+git pull
+gedit README.md
+git status
+git add -u
+git commit -m "merged"
+git push
+gedit readme.txt
+gedit status
+git status
+git add -u
+git commit
+git status
+git add -u
+git status
+git add -u
+git status
+git add readme.txt
+git status
+git commit
+git push
+git init master_from_local
+ll
+cd master_from_local/ Repos/
+ll
+mv master_from_local Repos
+ll
+rm -rf ~/Repos
+ll
+cd Repos
+cd ~/Repos
+cd Repos
+cd
+ll
+cd Repos
+mkdit Repos
+git pull
+mkdir Repos
+cd Repos
+git clone https://github.com/SBGuillermo/master_clase2.git
+git pull
+cd master_clase2
+git pull
+cd Repos
+cd
+cd Repos
+git init master_class2_local
+cd master_class2_local
+getin second_idea.txt
+gedit secong_idea.txt
+gitin my_idea.txt
+gedin my_idea.txt
+git add -u
+git status
+gedit my_idea.txt
+git add -u
+git status
+git add-u
+git add -u
+git add my_idea.txt secong_idea.txt
+git status
+git commit
+git remote add origin https://github.com/SBGuillermo/My_ideas.git/
+git branch -M main
+git push -u origin main
+git log
+cd
+man cp
+cat --help
+cd Data
+ll
+cd opentraveldata
+ll
+open ref_airline_nb_of_flights.csv
+less ref_airline_nb_of_flights.csv
+less -n ref_airline_nb_of_flights.csv
+less -N ref_airline_nb_of_flights.csv
+less -N -S ref_airline_nb_of_flights.csv
+alias
+l
+type l
+type ll
+Master=kschool
+echo $Master
+cd
+less
+cd
+cd Data
+cd shell
+head Finn.txt
+wc Finn.txt
+wwc -b Finn.txt
+wc -b Finn.txt
+wc --help
+echo "HELP MEEEEE" | wc
+wc Text_example.txt
+less Text_example.txt
+cat Text_example.txt
+cat Text_example.txt | wc
+cat Text_example.txt | head -3 | wc
+cat Text_example.txt | wc > salida
+ll
+cat salida
+cat Text_example.txt | wc >> salida
+cat salida
+cd
+cd Data
+cd opentraveldata
+ll
+ls -s
+ls
+ls -S
+ls -s
+ll -s
+ll --help
+l -S
+l -S | head 1 | > largest_file.txt
+l -S | head -1 | > largest_file.txt
+ll
+cd ~/Data
+ll
+cd shell
+ll
+head -5 Finn.txt | wc
+head -5 Finn.txt | wc -w
+cat --help
+cat -n Text_example.txt | head -3 | < Text_number 
+cat -n Text_example.txt | head -3 | > Text_number 
+ll
+cat Text_number
+cd 
+cd R
+cd
+cd Repos
+ git init Clases Master
+ git init ClasesMaster
+mkdir Shell
+cd ClasesMaster
+mkdir Shell
+cd Shell
+cat ~/.history > Shell_class_2020_11_14
+git add Shell_class_2020_11_14
+cd ..
+git status
+git commit -m "commands ls, cat , pipe, tail, head, less"
+cd Shell
+gedit Shell_class_2020_11_14
+cd..
+cd ..
+cd
+rm R
+rm -rf R
+cd Repos
+cd ClasesMaster
+git remote add origin https://github.com/SBGuillermo/ClasesMaster26.git\
+git branch -M main\
+git push -u origin main
+find | wc -l
+cd
+find | wc -l
+find . -name "text_file*"
+fing . -iname "TexT_fiLe*"
+find . -iname "TexT_fiLe*"
+fing -type f -iname "text_file*"
+find -type f -iname "text_file*"
+find -type f -maxdepth 5 -iname "text_file*"
+find -maxdepth 5 -type f -iname "text_file*"
+find -maxdepth 5 -mindepth 2  -type f -iname "text_file*"
+find -type f -perm 777
+find -type f ! -perm 777
+find -type f -empty | wc
+find -type f -size +10M | wc -l
+find -type f -mmin -60 | wc -l
+sudo find -type f -iname "text_file*"
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" ;
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \
+sudo find -type f -iname "text_file*" -exec echo "FOUND IT" \;
+sudo find -type f -iname "text_file*"
+ls -l ./first_dir/text_file.txt.backup
+sudo find -type f -iname "text_file*" -exec ls -l { \;
+sudo find -type f -iname "text_file*" -exec ls -l {};
+sudo find -type f -iname "text_file*" -exec ls -l {} \;
+{{
+sudo find -type f -iname "text_file*" -exec head -2 {} \| wc\;
+sudo find -type f -iname "text_file*" -exec head -2 {} \| wc \;
+sudo find -type f -iname "text_file*" -exec head -2 {} | wc \;
+sudo find -type f -iname "text_file*" -exec bash -2 {} | wc \;
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc \;
+sudo find -type f -iname "text_file*" -exec bash -c "head -2 {} | wc" \;
+sudo find -type f -mmin -60
+find -type f -empty - ! perm 777 | wc
+find -type f -empty - ! perm 777 
+find -type f -empty ! - perm 777 
+find -type f -empty ! -perm 777 
+find -type f -empty ! -perm 777 | wc
+find -type f -empty ! -perm 777 -exec chmod 777 {} \;
+cd Data
+find -type f -exec l -S {} -exec head -3 \;
+find -type f -exec ls -S {} -exec head -3 \;
+find -type f -exec ls -s {} -exec head -3 \;
+find -type f -exec ls -s {} \; -exec head -3 \;
+find -type f -exec ls -s {} \; -exec head -3 {} \;
+find -type f -exec ls -s {} -exec head -3 {} \;
+sudo find -type f -exec ls-s -exec bash -c "head -2 {} \;
+sudo find -type f -exec ls -s -exec bash -c "head -2 {} \;
+sudo find -type f -exec ls -s \; -exec bash -c "head -2 {} \;
+sudo find -type f -exec ls -s \;
+sudo find -type f -exec l -s \;
+sudo find -type f -exec ll -s \;
+sudo find -type f -exec ls -s \;
+cd
+cd Repos
+cd ClasesMaster
+cd Shell
+cat ~/.history > Shell_class_2020_11_14-2
