@@ -1,0 +1,151 @@
+find ~/Data -maxdepth 1 -type d -exec echo {} \; -exec sh -c "ls -S {} | head -3 " \;
+cd
+cd books
+mkdir cool_books
+ll
+seq 1 10
+seq 1 2 10 > uniq_example.txt
+seq 1 10 >> uniq_example.txt
+cat uniq_example.txt
+uniq uniq_example.txt
+sort uniq_example.txt | uniq
+cd
+cd Data
+ll
+cd opentraveldata
+ll
+sort -t "^" -k 6,6 optd_aircraft.csv | head 
+sort -t "^" -k 6r,6 optd_aircraft.csv | head 
+sort -t "^" -k 6r,6 -k 4,4 optd_aircraft.csv | head 
+sort -t "^" -k 6r,6 -k 4r,4 optd_aircraft.csv | head 
+sort -t "^" -k 6r,6 -k 4rn,4 optd_aircraft.csv | head 
+sort -t "^" - k 2,2 -u optd_aircraft.csv 
+sort -t "^" -k 2,2 -u optd_aircraft.csv 
+sort -t "^" -k 2,2 -u optd_aircraft.csv | wc .l
+sort -t "^" -k 2,2 -u optd_aircraft.csv | wc -l
+seq15> 20lines.txt
+seq 15 > 20lines.txt
+seq 9 1 20 >> 20lines.tx
+echo "20\n20" >> 20lines.txt
+l
+seq 9 1 20 >> 20lines.txt
+20lines.ext ls
+ls 20lines.txt
+cat 20lines.tx
+cat 20lines.txt
+sort 20lines.txt
+sort -n | uniq
+sort -n 20lines.txt | uniq
+sort 20lines.txt| uniq d
+sort 20lines.txt| uniq -d
+sort 20lines.txt| uniq -c
+sort -n 20lines.txt| uniq -c
+rm 20lines.tx
+ll
+sort -n 20lines.txt| sortr | uniq -c
+sort -n 20lines.txt| sort | uniq -c
+sort -n 20lines.txt| uniq -c | sort -n | head -1
+sort -t "^" -k 7,7 optd_aircraft.csv | head
+sort -t "^" -k 7nr0\
+,7 optd_aircraft.csv | head
+sort -t "^" -k 7nr\
+,7 optd_aircraft.csv | head
+sort -t "^" -k 7nr,7 optd_aircraft.csv | head
+sort -t "^" -k 7nr,7 optd_aircraft.csv | head -1
+cut -d "^" -f 1,3-5 optd_aircraft.csv | head 
+cut -d "^" -f 1,3-5 --output -delimiter="." optd_aircraft.csv | head 
+cut -d "^" -f 1,3-5 --output -delimiter="OMG" optd_aircraft.csv | head 
+seq 1 10 > numbers
+cat numbers
+paste numbers
+paste numbers numbers
+paste -s numbers
+paste -s numbers -d "^" numbers
+paste -s -d "^" numbers
+cd .
+.cd
+cd ..
+cd shell
+seq 1 10 > numbers
+seq 1 10 > numbers Text_example.txt
+paste numbers Text_example.txt
+cat numbers
+seq 1 10 > numbers
+cat numbers
+paste numbers Text_example.txt
+wc <(cat Text_example.txt)
+paste <(seq 15) <(seq 10)
+paste <(seq 10 20) <(cat Text_example.txt)
+cd -
+cd opentraveldata
+head -1 optd_aircraft.csv
+head -1 optd_aircraft.csv | tr "^" "Q"
+head -1 optd_aircraft.csv | tr "^" "\n"
+paste <(seq 10) <(head -1 optd_aircraft.csv | tr "^" "\n")
+paste <(seq 8) <(head -1 optd_aircraft.csv | tr "^" "\n")
+echo "master data science" | tr as sa
+echo "master data science" | tr a A
+ll
+cat optd_aircraft.csv | tr "^" ","
+head -1 optd_por_public.csv | tr "^" "\n" | wc
+cat optd_por_public.csv
+head -1 optd_por_public.csv | cat
+head -1 optd_por_public.csv | tr "^" "\n" | wc
+sort -t "^" -k 8,8 optd_airlines.csv 
+sort -t "^" -k 8,8 optd_airlines.csv | uniq 
+sort -t "^" -k 8,8 optd_airlines.csv | uniq -c
+sort -t "^" -k 8,8 optd_airlines.csv | uniq -c | wc
+sort -t "^" -k 8,8 optd_airlines.csv | uniq -c | 
+cat optd_airlines.csv | cut -d "^" -f8,14 | head
+cat optd_airlines.csv | cut -d "^" -f8,14 | head | sort -t "^" - k 2rn,2
+cat optd_airlines.csv | cut -d "^" -f8,14 | head | sort -t "^" -k 2rn,2
+cat optd_airlines.csv | cut -d "^" -f8,14 | sort -t "^" -k 2rn,2 | head -1
+cat -d "^" -f10 optd_airlines.csv | head
+cut -d "^" -f10 optd_airlines.csv | head
+cut -d "^" -f10 optd_airlines.csv | sort
+cut -d "^" -f10 optd_airlines.csv | sort | uniq -c
+cd ..
+cd shell
+grep this Text_example.txt
+grep -n -i -E "^T" Text_example.txt
+grep -n -i -o -E "^T" Text_example.txt
+grep -n -o -i -E "^T" Text_example.txt
+grep -i -E "^T" Text_example.txt
+grep -i Text_example.txt
+grep -i this Text_example.txt
+grep  this Text_example.txt
+echo Sunday | sed ssdaysnights
+echo Sunday | sed 's/day/night/'
+echo Sunday | sed 's^day^night^'
+echo Sunday.day | sed s/day/night
+echo Sunday.day | sed 's/day/night'
+echo Sunday.day | sed s/day/night
+echo Sunday.day | sed s/day/night/
+echo Sunday.day | sed s/day/night/g
+cp Text_example.txt Text_example_copy.txt
+sed -i 's/this/RONALDO/gI' Text_example_copy.txt 
+cat Text_example_copy.txt
+sed -i '3d' Text_example_copy.txt
+cat Text_example_copy.txt
+cp Text_example.txt Text_example_copy.txt
+sed -i 's/line/\n/gI' Text_example_copy.txt 
+cat Text_example_copy.txt
+sed -i '/line/!d' Text_example_copy.txt
+cat Text_example_copy.txt
+cp Text_example.txt Text_example_copy.txt
+sed -i '/line/!d' Text_example_copy.txt
+cat Text_example_copy.txt
+cp Text_example.txt Text_example_copy.txt
+sed -i '/line/d' Text_example_copy.txt
+cat Text_example_copy.txt
+cd
+cd Repos
+ll
+cd ClasesMaster
+git pull
+ll
+cd shell
+ll
+cd Shell
+ll
+cat ~/.history > Shell_class_2020_20.txt
